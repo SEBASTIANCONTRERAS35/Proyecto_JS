@@ -1,0 +1,147 @@
+body {
+  background-image: url("https://media.istockphoto.com/photos/coronavirus-new-strain-wide-dark-background-picture-id1308624310?b=1&k=20&m=1308624310&s=170667a&w=0&h=HyEGR3DtK8TD2_kqoryPPuBWexQnG_KK0KhHYtXvm-c=");
+}
+
+nav {
+  height: 20%;
+  width: 100%;
+}
+nav button {
+  width: 237px;
+}
+nav img {
+  width: 91px;
+  height: 62px;
+}
+nav #NameofSite {
+  text-align: center;
+  margin-right: 20%;
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+nav #NameofSite a {
+  font-size: 1.5rem;
+}
+
+main {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main #TOGETHER {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main #TOGETHER h1 {
+  color: blanchedalmond;
+  text-align: center;
+}
+main #TOGETHER h2 {
+  color: blanchedalmond;
+}
+main #options {
+  height: 533px;
+  width: 1216px;
+  background-color: blanchedalmond;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+}
+main #options .Father {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #f0110c;
+  width: 100%;
+  height: 50%;
+}
+main #options .Mother {
+  display: flex;
+  flex-direction: row;
+  background-color: #f0110c;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  height: 50%;
+}
+main #options .Son {
+  background-color: white;
+  width: 45%;
+  height: 80%;
+}
+main #options .Son .Buttons {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main #options .Son .Buttons img {
+  width: 50%;
+  height: 80%;
+}
+main #options .Daughter {
+  background-color: white;
+  width: 45%;
+  height: 80%;
+}
+main #options .Daughter .Buttons {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main #options .Daughter .Buttons img {
+  width: 50%;
+  height: 80%;
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+  margin-top: 30px;
+  border: solid;
+  background-color: #0242FB;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+footer img {
+  width: 50%;
+  height: 60%;
+}
+
+#Information {
+  width: 33%;
+  height: 100%;
+}
+
+#Logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34%;
+  height: 100%;
+}
+
+#Sentence {
+  width: 33%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=index.css.map */
